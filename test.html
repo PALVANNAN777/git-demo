@@ -1,0 +1,12 @@
+<h1 id="result"></h1>
+
+<button onclick=print(event) >Levi</button>
+<button onclick=print(event) >Anya</button>
+<button onclick=print(event)>Naruto</button>
+
+<script>
+    var h1=document.getElementById("result")
+    function print(event){
+        h1.textContent = event.target.textContent 
+    }
+</script>
